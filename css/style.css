@@ -38,4 +38,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: 100% auto;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
 }
