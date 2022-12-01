@@ -6,29 +6,35 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <form class ="Login_Form_Position" name="loginformular" method="POST" action="login.php">
-            <table>
-      <!-- tr ist eine Tabellenzeile -->
-              <tr>
-      <!-- td ist ein Tabellenfeld -->
-            <tr>
-                <td><b>User</b></td>
-            </tr>
-            <tr>
-                <td><input class="input_style" type="text" name="user" size="30" maxlength="30"></td>
-            </tr>
-            <tr>
-                <td><b>Password</b></td>
-            </tr>
-            <tr>
-                <td><input class="input_style" type="password" name="password" size="30" maxlength="30"></td>
-            </tr>
-            <tr>
-                <td><input class="button_style" type="submit" value="Login"></td>
-                <td>&nbsp;</td>
-            </tr>
-            </table>
-          </form>
-        <script type="text/javascript" src="js/Functions.js"></script>
+        <div class="formFormat">
+            <form class ="Login_Form_Position" name="loginformular" method="POST" action="login.php">
+                <table>
+            <!-- tr ist eine Tabellenzeile -->
+                    <tr>
+            <!-- td ist ein Tabellenfeld -->
+                    <tr>
+                        <td><b>User</b></td>
+                    </tr>
+                    <tr>
+                        <td><input class="input_style" type="text" name="user" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Password</b></td>
+                    </tr>
+                    <tr>
+                        <td><input class="input_style" type="password" name="password" size="30" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="button_style" type="submit" value="Login">
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+              </form>
+              <form name="registrierenFormular" method="POST" action="html/register_page.html">
+                <input class="button_style" type="submit" value="Register">
+              </form>
+        </div>
     </body>     
 </html>
