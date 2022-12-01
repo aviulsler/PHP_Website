@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+
+.Login_Form_Position {
+    position:relative; left:120px; top: 120px;
+    font-family: monospace;
+    color: aqua;
+    font-size:20px;
+}
+
+.input_style {
+    width: 75%;
+    border-style: none none solid none;
+    border-color: aqua;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    -webkit-text-fill-color: aqua;
+    outline: none;
+}
+.button_style{
+    border-style: none;
+    background: transparent;
+    -webkit-text-fill-color: aqua;
+}
+body {
+    background-image: url('/images/Akali.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% auto;
+}
