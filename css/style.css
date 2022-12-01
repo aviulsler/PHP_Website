@@ -23,11 +23,14 @@
     background: transparent;
     -webkit-text-fill-color: aqua;
     outline: none;
+    caret-color: aqua;
+    font-family: monospace;
 }
 .button_style{
     border-style: none;
     background: transparent;
     -webkit-text-fill-color: aqua;
+    font-family: monospace;
 }
 body {
     background-image: url('/images/Akali.jpg');
