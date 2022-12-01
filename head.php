@@ -21,10 +21,4 @@ print "  </head>\n";
 print "  <body bgcolor=\"#CCFFFF\">\n";
 print "  </body>\n";
 
-if ( $nbrow == '1' ) {
-  print "<form name=\"logoff\" method=\"POST\" action=\"logoff.php\">\n";
-  print "  <input type=\"submit\" value=\"logoff\">\n";
-  print "</form>\n";
-}
-
 ?>
