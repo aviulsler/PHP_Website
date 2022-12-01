@@ -23,7 +23,7 @@
   // schliesse Datenbankverbindung
   include 'cnx_reset.php';
 
-  if ( $passwordform == $passworddb ) {
+  if ( ($passwordform == $passworddb) and ($passwordform != "")) {
     print "<meta http-equiv=\"refresh\" content=\"0; url=hallo.php\">\n";
 
     include 'cnx.php';
