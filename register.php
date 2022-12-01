@@ -1,11 +1,11 @@
 <?php
 
-  $userRegister = $_POST['userRegister'];  
-  $passwordRegister = $_POST['passwordRegister'];
-  $passwordRepeat = $_POST['passwordRepeat'];
+    $userRegister = $_POST['userRegister'];  
+    $passwordRegister = $_POST['passwordRegister'];
+    $passwordRepeat = $_POST['passwordRepeat'];
 
     if ( $passwordRegister != $passwordRepeat ) {
-        print "<h1>Passwords not identicyl</h1>\n";
+        print "<h1>Passwords not identical</h1>\n";
         print "<meta http-equiv=\"refresh\" content=\"5; url=html/register_page.html\">\n";
     } else {
         $query = "INSERT INTO TLogin (user, password)

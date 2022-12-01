@@ -25,20 +25,20 @@
     font-family: monospace;
 }
 
-.button_style{
+.button_style {
     border-style: none;
     background: transparent;
     -webkit-text-fill-color: aqua;
     font-family: monospace;
+    
 }
 
 body {
+    position: static;
     background-image: url('/images/Akali.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 100% auto;
-    margin: 0;
-    height: 100%;
     overflow: hidden;
+    background-size: cover;
 }
