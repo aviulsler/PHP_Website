@@ -1,14 +1,12 @@
 <?php
 
-  session_start();
-  $idsession = session_id();
-
   $userRegister = $_POST['userRegister'];  
   $passwordRegister = $_POST['passwordRegister'];
   $passwordRepeat = $_POST['passwordRepeat'];
 
     if ( $passwordRegister != $passwordRepeat ) {
-        echo "Passwords not matching";
+        print "<h1>Passwords not matching</h1>\n";
+        print "<meta http-equiv=\"refresh\" content=\"5; url=register_page.html\">\n";
     } else {
         $query = "INSERT INTO TLogin (user, password)
         VALUES ('$userRegister', '$passwordRegister')";
