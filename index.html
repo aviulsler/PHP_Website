@@ -1,40 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Aviserver</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
-        <div class="formFormat">
-            <form class ="Login_Form_Position" name="loginformular" method="POST" action="login.php">
-                <table>
-            <!-- tr ist eine Tabellenzeile -->
-                    <tr>
-            <!-- td ist ein Tabellenfeld -->
-                    <tr>
-                        <td><b>User</b></td>
-                    </tr>
-                    <tr>
-                        <td><input class="input_style" type="text" name="user" size="30" maxlength="30"></td>
-                    </tr>
-                    <tr>
-                        <td><b>Password</b></td>
-                    </tr>
-                    <tr>
-                        <td><input class="input_style" type="password" name="password" size="30" maxlength="30"></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input class="button_style" type="submit" value="Login">
-                        </td>
-                        <td>&nbsp;</td>
-                    </tr>
-                </table>
-              </form>
-              <form name="registrierenFormular" method="POST" action="html/register_page.html">
-                <input class="button_style" type="submit" value="Register">
-              </form>
-        </div>
-    </body>     
+
+<head>
+    <meta charset="utf-8">
+    <title>Aviserver</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <section class="formsFormat">
+        <form name="loginformular" method="POST" action="login.php">
+            <b>User</b><br>
+            <input class="input_style" type="text" name="user" size="30" maxlength="30"><br>
+            <b>Password</b><br>
+            <input class="input_style" type="password" name="password" size="30" maxlength="30"><br>
+            <input class="button_style" id="buttonLogin" type="submit" value="Login"><br>
+            <input class="button_style" id="buttonRegister" type="submit" value="Register">
+        </form>
+        <!--<form name="registerForm" action="html/register_page.html">
+        </form>-->
+    </section>
+    <script src="js/Functions.js"></script>
+</body>
+
 </html>
