@@ -1,5 +1,4 @@
 <?php
-
     $userRegister = $_POST['userRegister'];  
     $passwordRegister = $_POST['passwordRegister'];
     $passwordRepeat = $_POST['passwordRepeat'];

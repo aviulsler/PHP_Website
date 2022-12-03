@@ -5,3 +5,7 @@ let play = document.getElementById("play");
     }
 play.addEventListener("click", playMusic);
 
+const buttonRegister = document.getElementById("buttonRegister");
+    buttonRegister.addEventListener((event) => {
+        
+    })
