@@ -30,7 +30,10 @@
     background: transparent;
     -webkit-text-fill-color: aqua;
     font-family: monospace;
-    
+}
+
+.button_style:hover {
+    background-color: #111;    
 }
 
 body {
