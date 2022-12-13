@@ -15,6 +15,6 @@
         include 'cnx_reset.php';
         print "<h1>Erfolgreich Registiert</h1>\n";
         print "Welcome $userRegister<br>\n";
-        print "<meta http-equiv=\"refresh\" content=\"5; url=.\">\n";
+        print "<meta http-equiv=\"refresh\" content=\"5; url=../index.php\">\n";
     }
 ?>
