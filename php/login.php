@@ -24,8 +24,9 @@ while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 include 'cnx_reset.php';
 
 if (($passwordform == $passworddb) and ($passwordform != "")) {
+  $query = "INSERT INTO TSession (idsession, user) VALUES ('$idsession', '$userform')";
   include 'cnx.php';
-  mysqli_query($cnx, "INSERT INTO TSession ( idsession, user ) VALUES ( '$idsession', '$userform' );");
+  mysqli_query($cnx, $query);
   include 'cnx_reset.php';
 
   print "<meta http-equiv=\"refresh\" content=\"0; url=hallo.php\">\n";
