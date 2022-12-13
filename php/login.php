@@ -31,6 +31,6 @@ if (($passwordform == $passworddb) and ($passwordform != "")) {
   print "<meta http-equiv=\"refresh\" content=\"0; url=hallo.php\">\n";
 } else {
   print "<h1>Login fehlerhaft</h1>\n";
-  print "<meta http-equiv=\"refresh\" content=\"5; url=.\">\n";
+  print "<meta http-equiv=\"refresh\" content=\"5; url=../index.html\">\n";
 }
 ?>
