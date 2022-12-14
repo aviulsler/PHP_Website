@@ -4,11 +4,6 @@
 
 //  Eigentlicher Inhalt der Webseite für angemeldete Benutzer
     include '/../html/startPage.html';
-    print "<form name=\"logoff\" method=\"POST\" action=\"logoff.php\">\n";
-    print "  <input type=\"submit\" value=\"logoff\">\n";
-    print "</form>\n";
-
-
 
 
 

@@ -5,7 +5,7 @@
 
     if ( $passwordRegister != $passwordRepeat ) {
         print "<h1>Passwords not identical</h1>\n";
-        print "<meta http-equiv=\"refresh\" content=\"5; url=html/register_page.html\">\n";
+        print "<meta http-equiv=\"refresh\" content=\"5; url=../html/register_page.html\">\n";
     } else {
         $query = "INSERT INTO TLogin (user, password)
         VALUES ('$userRegister', '$passwordRegister')";
