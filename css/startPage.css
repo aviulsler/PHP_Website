@@ -5,6 +5,15 @@ ul {
     overflow: hidden;
     background-color: #333;
   }
+  .LogoutButton {
+    border-style: none;
+    background: transparent;
+    -webkit-text-fill-color: aqua;
+    font-family: monospace;
+    position: fixed;
+    bottom:0px;
+    left: 0px;
+}
 
   li {
     float: left;

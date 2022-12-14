@@ -14,11 +14,4 @@ while ( $row = mysqli_fetch_array($result,MYSQLI_ASSOC) ) {
   $user = $row['user'];
 }
 
-print "<html>\n";
-print "  <head>\n";
-print "    <title>Hello</title>\n";
-print "  </head>\n";
-print "  <body bgcolor=\"#CCFFFF\">\n";
-print "  </body>\n";
-
 ?>
