@@ -3,7 +3,7 @@
   if ( $nbrow == '1' ) {
 
 //  Eigentlicher Inhalt der Webseite für angemeldete Benutzer
-    include('/../html/startPage.html');
+    include('../html/startPage.html');
 
 
 
